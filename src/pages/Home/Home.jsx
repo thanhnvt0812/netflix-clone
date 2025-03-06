@@ -17,7 +17,11 @@ const Home = () => {
         <img src={hero_banner} alt="" className="banner-img"></img>
         <div className="hero-caption">
           <img src={hero_title} alt="" className="caption-img"></img>
-          <p>qweqweqweqweqwew</p>
+          <p>
+            Discovering his ties to a secret ancient order, a young man living
+            in modern <br></br> Istanbul embarks on a quest to save the city
+            from an immortal enemy.
+          </p>
           <div className="hero-btns">
             <button className="btn">
               <img src={play_icon} alt=""></img>Play
@@ -30,10 +34,10 @@ const Home = () => {
         </div>
       </div>
       <div className="more-cards">
-        <TitleCards title={"Blockbuster Movies"} />
-        <TitleCards title={"Only on Netflix"} />
-        <TitleCards title={"Upcoming"} />
-        <TitleCards title={"Top Pics for You"} />
+        <TitleCards title={"Blockbuster Movies"} category={"top_rated"} />
+        <TitleCards title={"Only on Netflix"} category={"popular"} />
+        <TitleCards title={"Upcoming"} category={"upcoming"} />
+        <TitleCards title={"Top Pics for You"} category={"now_playing"} />
       </div>
       <Footer />
     </div>

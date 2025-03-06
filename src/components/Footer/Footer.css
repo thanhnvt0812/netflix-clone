@@ -23,3 +23,14 @@
   color: gray;
   font-size: 14px;
 }
+
+@media screen and (max-width: 800px) {
+  .footer-icons img {
+    width: 25px;
+  }
+  .footer-icons ul {
+    grid-template: auto auto;
+    gap: 8px;
+    font-size: 14px;
+  }
+}
